@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, ViewChild  } from '@angular/core';
+import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'app-reviews',
   templateUrl: './reviews.component.html',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReviewsComponent implements OnInit {
 
-  constructor() { }
+ images = "../assets/dark.jpeg";
+ links = ['First', 'Second', 'Third','fgv','hgc','hgcg','hthj', 'Third','fgv','hgc','hgcg','hthj'];
+  activeLink = this.links[0];
 
-  ngOnInit(): void {
-  }
+    constructor() { }
+
+    ngOnInit(): void {
+    }
+
 
 }

@@ -1,0 +1,65 @@
+mat-grid-tile {
+  background: lightblue;
+}
+.content .sec1, .sec2, .sec3{
+
+  background-color: black;
+  color: white;
+}
+.content{
+  text-align: center;
+
+}
+.content h1,h2{
+  padding: 0px;
+  margin: 0px;
+}
+.footer{
+  background-color: black;
+  padding: 1em;
+}
+.footer mat-expansion-panel{
+  background-color: grey;
+  color:white;
+  width: calc(20em + 1vw);
+}
+.footer {
+  background-color: black;
+  color:white;
+}
+.mat-icon{
+  margin-top: 1em;
+}
+.example-form{
+  color: white;
+}
+.label{
+  color: white;
+}
+.example-form {
+  min-width: 8em;
+  max-width: 20em;
+  width: 100%;
+
+}
+
+.example-full-width {
+  width: 100%;
+}
+.sec2 h3{
+  font-size: calc(0.5em + 1vw);
+}
+.socialSites{
+    position: relative;
+    top: 5px;
+    margin: 0px;
+    padding: 0px;
+}
+.footer h2{
+  font-size: calc(1em + 1vw);
+  color: red;
+}
+.vl{
+  border-left: 0.2em solid white;
+  height: 15em;
+}
