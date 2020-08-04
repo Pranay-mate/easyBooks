@@ -1,0 +1,17 @@
+.msg-to-parents p{
+    font-size: larger;
+    font-weight: 400;
+    font-style: italic;
+    font-family: cursive;
+    color: rgb(14, 10, 2);
+}
+.msg-to-parents h1{
+    font-size: calc(1.4em + 1vw);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.message_paren{
+    border: 2em;
+    border-radius: 2em;
+    border-color: black;
+}
