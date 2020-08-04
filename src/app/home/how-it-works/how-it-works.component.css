@@ -13,12 +13,12 @@ padding:80px;
 .dim
 {
   padding:60px;
-  
+
   width:70%;
   height:600px;
    position: relative;
   left: 200px;
-  
+
 }
 .mat-divider
 {
@@ -41,7 +41,7 @@ header {
 	position: relative;
 	overflow: hidden;
   border-radius: 0 0 85% 85% / 30%;
-	
+
 }
 header .overlay{
 	width: 100%;
@@ -61,5 +61,3 @@ h3, p {
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 30px;
 }
-
-

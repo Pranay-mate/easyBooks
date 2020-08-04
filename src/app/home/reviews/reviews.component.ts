@@ -8,8 +8,6 @@ import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/n
 export class ReviewsComponent implements OnInit {
 
  images = "../assets/dark.jpeg";
- links = ['First', 'Second', 'Third','fgv','hgc','hgcg','hthj', 'Third','fgv','hgc','hgcg','hthj'];
-  activeLink = this.links[0];
 
     constructor() { }
 

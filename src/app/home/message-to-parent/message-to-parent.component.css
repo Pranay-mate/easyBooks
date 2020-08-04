@@ -8,9 +8,9 @@
 .msg-to-parents h1{
     font-size: calc(1.4em + 1vw);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 }
-.message_paren{
+.message_parent{
     border: 2em;
     border-radius: 2em;
     border-color: black;
