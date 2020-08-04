@@ -1,7 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Component, ViewChild } from '@angular/core';
 import { MatVideoModule } from 'mat-video';
 import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatIconModule} from '@angular/material/icon';
+import {MatInputModule} from '@angular/material/input';
+import {MatTabsModule} from '@angular/material/tabs';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +24,8 @@ import { PlansComponent } from './home/plans/plans.component';
 import { MessageToParentComponent } from './home/message-to-parent/message-to-parent.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { HappyCustomersComponent } from './home/happy-customers/happy-customers.component';
+import { WhatsappUsComponent } from './whatsapp-us/whatsapp-us.component';
 
 
 @NgModule({
@@ -30,7 +39,9 @@ import { FooterComponent } from './footer/footer.component';
     PlansComponent,
     MessageToParentComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HappyCustomersComponent,
+    WhatsappUsComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +50,13 @@ import { FooterComponent } from './footer/footer.component';
     BrowserAnimationsModule,
     MatVideoModule,
     MatCardModule,
-    NgbModule
+    NgbModule,
+    MatButtonModule,
+    FlexLayoutModule,
+    MatGridListModule,
+    MatIconModule,
+    MatInputModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

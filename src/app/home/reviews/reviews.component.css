@@ -1,0 +1,38 @@
+.ng-template{
+  height: 350px;
+
+}
+.responsive{
+  min-height: 320px;
+  max-height: 320px;
+
+}
+.carousel-caption h2{
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+}
+.carousel-caption h4{
+  margin-bottom: 3em;
+}
+.carousel-caption p{
+  margin-bottom: 5em;
+}
+.reviewHeading{
+  font-size: calc(1.4em + 1vw);
+
+}
+.review{
+  padding: 1em 0em;
+  background-color:#c0c0c0;
+}
+.example-card {
+  max-width: 100%;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+.example-card img{
+  margin: 1em;
+}
