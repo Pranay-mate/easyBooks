@@ -1,0 +1,29 @@
+#plans{
+  padding: 1em;
+  background-color: #202020;
+}
+.planHeading{
+  font-size: calc(2.2em + 1vw);
+  color: white;
+}
+.mat-card{
+  margin: 2em;
+  width: 300px;
+  background-color: #376380;
+  border-radius: 0.5em;
+}
+.container-fluid{
+  background-color: #ffffff;
+
+}
+.mat-card-title{
+  color: black;
+
+}
+
+.headingHappy{
+  font-size: calc(2.2em + 1vw);
+}
+.button{
+  color: white;
+}
