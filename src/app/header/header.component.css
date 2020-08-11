@@ -5,7 +5,7 @@ mat-toolbar img{
     margin: 0%;
 }
 mat-toolbar{
-    background-color: #000000ea;
+    background-color: black;
     color: white;
 }
 mat-toolbar .login{
@@ -13,19 +13,19 @@ mat-toolbar .login{
     margin: 0%;
 }
 
-  
+
   .example-sidenav-content {
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: center;
   }
-  
+
   .example-sidenav {
     padding: 20px;
   }
 
-  
-.img_xs{
 
+.openbook{
+  width: 100%;
 }

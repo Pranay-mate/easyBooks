@@ -57,7 +57,7 @@ mat-grid-tile {
 }
 .footer h2{
   font-size: calc(1em + 1vw);
-  color: red;
+  color: #0099ff;
 }
 .vl{
   border-left: 0.2em solid white;
