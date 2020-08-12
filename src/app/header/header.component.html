@@ -1,60 +1,26 @@
+<div >
+  <mat-toolbar class="navbar_header">
 
-<mat-toolbar>
-    <div fxHide.gt-xs>
-        <button mat-icon-button>
-            <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
-        </button>
-    </div>
-   <div>
-       <img src="./assets/images.png" class='responsive openbook mx-1'>
-   </div>
+     <div  fxLayoutAlign="start" >
+         <img src="./assets/images.png" class='responsive openbook'>
+     </div>
 
 
-    <div fxFlex fxHide.lt-sm>
-    <a mat-button>Blogs</a>
-    <a mat-button>Articles</a>
-    <a mat-button>Prices</a>
-    <a mat-button>Career</a>
-    <a mat-button>Events</a>
-    </div>
-    <div fxFlex fxFlex.lt-sm="15%" fxLayoutAlign="end" fxLayout>
+      <div >
+      <a mat-button class="">Services</a>
+      <a mat-button class="">Reviews</a>
+      <a mat-button class="">Plans</a>
+      <a mat-button class="">About Us</a>
+      <a mat-button class="">Contact Us</a>
+      </div>
 
-
-         <a mat-button>Sign in</a>
-
-
-        <a mat-button>Register</a>
-
-    </div>
-  </mat-toolbar>
-  <div fxHide.lt-sm >
-      <div>
-    <div>
-        <div class="carousel-inner">
-
-            <img src="https://goodereader.com/blog/uploads/images/https-_specials-images.forbesimg.com_dam_imageserve_794015686_960x0.jpg-fitscale.jpg"  class="responsive img-fluid w-100" alt="book">
-            <div class="carousel-caption mx-auto">
-            </div>
-          </div>
-    </div>
+    </mat-toolbar>
 </div>
-</div>
-  <mat-sidenav-container fxHide.gt-xs>
-    <mat-sidenav #sidenav>
-      <mat-nav-list>
 
-        <a mat-list-item [routerLink]="'/accounts'">                           Blogs</a>
-        <a mat-list-item [routerLink]="'/create-account'">                     Articals</a>
-        <a mat-list-item [routerLink]="'/contacts'">                           Prices</a>
-        <a mat-list-item [routerLink]="'/create-contact'">                     Career</a>
-        <a mat-list-item [routerLink]="'/activities'">                         Events</a>
 
-      </mat-nav-list>
-    </mat-sidenav>
-    <mat-sidenav-content>
         <div>
             <div>
-                <div class="carousel-inner">
+                  <div class="carousel-inner">
 
                     <img src="https://goodereader.com/blog/uploads/images/https-_specials-images.forbesimg.com_dam_imageserve_794015686_960x0.jpg-fitscale.jpg" class="responsive img-fluid w-100" alt="book">
                     <div class="carousel-caption mx-auto">
@@ -62,6 +28,3 @@
                   </div>
             </div>
         </div>
-
-    </mat-sidenav-content>
-  </mat-sidenav-container>
